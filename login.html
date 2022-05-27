@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<style>
+
+    body{
+        background: #e1e1e1;
+    }
+</style>
+    <title>Travellers</title>
+  </head>
+  <body>
+   
+<section class="login">
+    <div class="container bg">
+        
+        <div class="d-flex formtext">
+            <form>  
+                <h3>Sign up</h3>
+                <div class="item col-md-12">
+                    <p>                    
+                        <label>User Name :</label>
+                        <span>
+                            <input type="text" class="form-control"  name="username"  required/>
+                        </span>
+                    </p>
+                </div>
+                <div class="item  col-md-12">
+                    <p>
+                        <label>Email :</label>
+                        <span>
+                         <input type="email" class="form-control"  name="username"  required/>
+                     </span>
+                     </p>
+                </div>
+                <div class="item col-md-12">
+                    <p>
+                    <label>Number :</label>
+                    <span class="horizontal">
+                        
+                        <input type="text"  class="form-control" name="Number"  required/>
+                         <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">Otp</button>
+                   </span>
+               </p>
+                </div>
+
+              <div class="item  col-md-12">
+                   <p>
+                        <label>Password : </label>
+                        <span>
+                        <input type="password" class="form-control"  name="password" required />
+                    </span>
+                   </p>
+                </div>
+                
+                <div class="form-check col-md-12">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    I read <a href="#">terms and condition</a>. I accept it
+
+                </div>
+                
+                <button type="submit" class="submitBtn">Login</button>
+
+              
+            </form>
+         
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Please Verify OTP</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="item  col-md-12">
+                   
+                        <label>OTP :</label>
+                    <input type="text" class="form-control"  name="mail" required/>
+                    
+                </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+            
+        </div>
+
+    </div>
+</section>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
